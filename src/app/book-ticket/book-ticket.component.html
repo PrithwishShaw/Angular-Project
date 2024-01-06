@@ -1,0 +1,54 @@
+<!-- <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Movie ID</th>
+        <th scope="col">Language</th>
+        <th scope="col">Type</th>
+        <th scope="col">Genre</th>
+        <th scope="col">Location</th>
+        <th scope="col">Time</th>
+        <th scope="col">Seats Available</th>
+        <th scope="col">Prcie</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>   
+          <td>{{movie.movieName}}</td>
+          <td>{{movie.movieId}}</td>
+          <td>{{movie.movieLanguage}}</td>
+          <td>{{movie.movieType}}</td>
+          <td>{{movie.movieGenre}}</td>
+          <td>{{movie.location}}</td>
+          <td>{{movie.movieTime}}</td>
+          <td>{{movie.seatAvailable}}</td>
+          <td>{{movie.price}}</td>
+        </tr>
+      </tbody>
+  </table> -->
+
+<br>
+<br>
+<div class="container">    
+<form>
+    <div class="HEAD">
+        <label id="HEAD" for="id"><h2><b>TICKET BOOKING</b></h2></label>
+    </div>
+    <div class="form-group">
+        <label for="lastName">Seat</label>
+        <input type="text" class="form-control" id="lastName" aria-describedby="emailHelp"
+            placeholder="Enter the seats" name="seats" [(ngModel)]="ticket1.seats">
+    </div>
+    <div class="form-group">
+        <label for="lastName">Name</label>
+        <input type="text" class="form-control" id="lastName" aria-describedby="emailHelp"
+            placeholder="Enter your name" name="name" [(ngModel)]="booking.customerName">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+            placeholder="Enter your email" name="email" [(ngModel)]="booking.customerEmail">
+    </div>
+    <button type="submit" (click)="bookTicket(movie.movieId)" class="btn btn-dark">Book</button>
+</form>
+</div>

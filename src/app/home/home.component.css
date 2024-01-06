@@ -1,0 +1,31 @@
+
+
+
+.row{
+    position: absolute;
+    left: 10px;
+    top: 400px;
+}
+
+
+.col{
+    position: relative;
+    bottom: -80px;
+    left: 280px;
+
+}
+
+.header{
+    position: absolute;
+    padding: 10px;
+    left: 280px;
+    top: 60px;
+}
+
+.p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 280px;
+    top: 50px;
+}
+

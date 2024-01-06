@@ -1,0 +1,16 @@
+footer{
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    bottom: -250px;
+}
+
+img{
+    width: 120px;
+    height: 135px;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}

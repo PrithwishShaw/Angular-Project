@@ -1,0 +1,48 @@
+
+#row1{
+    position: absolute;
+    left: 120px;
+    top: 470px;
+}
+
+#row2{
+    position: absolute;
+    left: 120px;
+    top: 840px;
+}
+
+
+.col{
+    position: relative;
+    bottom: 300px;
+    left: 280px;
+
+}
+
+.p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 280px;
+    top: 50px;
+}
+
+.table{
+    width: 80%;
+    position: absolute;
+    left: 300px;
+    top: 950px;
+}
+
+h1{
+    background-color: black;
+    position: absolute;
+    border-style: solid;
+    border-color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin-top: 20px;
+    margin-left: 810PX;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border-width: 10px;
+}
